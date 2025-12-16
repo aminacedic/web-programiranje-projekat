@@ -63,7 +63,8 @@ body.darkmode .my-gallery h1 {
 /* Stil za dugmad (Saznaj više) u mraku */
 body.darkmode .projekti-btn,
 body.darkmode .blog-btn,
-body.darkmode .hero-btn {
+body.darkmode .hero-btn,
+body.darkmode .contact-btn {
     background-color: var(--color-blue);
     color: var(--text-color);
 }
@@ -72,7 +73,7 @@ body.darkmode .hero-btn {
 
 body.darkmode .projekti-btn:hover,
 body.darkmode .blog-btn:hover,
-body.darkmode .hero-btn.hover {
+body.darkmode .hero-btn:hover {
   background-color: var(--color-champagne);
 }
 
